@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Anime_List">
+        <item>My Hero Acadimia</item>
+        <item>Food Wars</item>
+        <item>Dragon Ball Super</item>
+        <item>Boruto</item>
+        <item>One Piece</item>
+    </array>
+</resources>

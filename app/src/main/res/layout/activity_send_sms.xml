@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.project2.SendSMS"
+    android:background="@drawable/naruto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND A FRIEND YOUR FAVORITE ANIME"
+        android:textSize="20dp"
+        android:textColor="@color/colorGreenish"
+        android:background="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMsg"
+        android:hint="Favorite Anime"
+        android:textColorHint="@color/colorBluish"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBluish"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNum"
+        android:hint="Phone Number"
+        android:textColorHint="@color/colorBluish"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBluish"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:layout_marginTop="20dp"
+        android:onClick="sendSMS"/>
+
+</LinearLayout>
